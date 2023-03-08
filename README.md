@@ -19,6 +19,7 @@ The trained model achieved an accuracy of 97.68% on the test set. The distributi
 
 # Acknowledgment
 The dataset used in this project is the German Traffic Sign Recognition Benchmark (GTSRB), which can be found at https://bitbucket.org/jadslim/german-traffic-signs/src/master/.  
+
 The project was completed as part of the Udemy [Self-Driving Car course](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/).
 
 # Future Improvements
