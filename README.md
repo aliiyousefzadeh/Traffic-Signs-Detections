@@ -1,7 +1,9 @@
 ## Traffic Signs Classification using Deep Learning
+
+# Inrtoduction
 This project focuses on classifying traffic signs into their respective categories using deep learning. In this project, a convolutional neural network (CNN) is used for image classification. The dataset used is the German Traffic Sign Recognition Benchmark (GTSRB), which consists of 43 different classes of traffic signs with images of varying sizes. The dataset is divided into three sets: training, validation, and testing.
 
-#Technical Description
+# Technical Description
 The project is implemented using Python 3 and Keras with TensorFlow backend. First, the dataset is loaded using the pickle library. The loaded data is then split into training, validation, and test sets. After loading the data, the dimensions of the images are checked to make sure they are 32 x 32 x 3, which is the required input shape for the CNN. Then, the data is preprocessed by converting the images to grayscale, applying histogram equalization to improve contrast, and normalizing the pixel values to be between 0 and 1.
 
 A CNN model is then defined using the Keras Sequential API. The model consists of two convolutional layers, followed by a max-pooling layer, two more convolutional layers, another max-pooling layer, a flattening layer, and two fully connected (Dense) layers. The activation function used is Rectified Linear Unit (ReLU), and dropout is applied to reduce overfitting.
