@@ -18,7 +18,8 @@ Finally, the trained model is evaluated on the test set, and the accuracy is rep
 The trained model achieved an accuracy of 97.68% on the test set. The distribution of the training dataset is also plotted to show that the dataset is balanced.
 
 # Acknowledgment
-The dataset used in this project is the German Traffic Sign Recognition Benchmark (GTSRB), which can be found at https://bitbucket.org/jadslim/german-traffic-signs/src/master/. The project was completed as part of the Udemy Self-Driving Car program.
+The dataset used in this project is the German Traffic Sign Recognition Benchmark (GTSRB), which can be found at https://bitbucket.org/jadslim/german-traffic-signs/src/master/.  
+The project was completed as part of the Udemy [Self-Driving Car course](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/).
 
 # Future Improvements
 Future improvements could include experimenting with different CNN architectures, such as deeper or wider networks, to improve accuracy. Other techniques, such as transfer learning, could also be explored. Additionally, the dataset could be expanded by collecting more images or using data augmentation techniques that generate more diverse images.
